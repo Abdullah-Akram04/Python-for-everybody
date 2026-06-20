@@ -9,3 +9,4 @@ print(type(x))
 
 input_floor = int(input("Enter the floor number: "))
 print("The elevator will stop at floor number:", input_floor)
+
