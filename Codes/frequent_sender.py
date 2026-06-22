@@ -4,7 +4,7 @@ if len(fname) < 1:
 
 fh = open(fname)
 
-counts = {}
+counts = 0
 
 for line in fh:
     if not line.startswith("From "):
