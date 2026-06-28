@@ -27,8 +27,8 @@ fh = open("where.data")
 count = 0
 nofound = 0
 for line in fh:
-    if count > 10 :
-        print('Retrieved 10 locations, restart to retrieve more')
+    if count > 20 :
+        print('Retrieved 20 locations, restart to retrieve more')
         break
 
     address = line.strip()
