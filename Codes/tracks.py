@@ -107,9 +107,5 @@ ORDER BY Artist.name
 LIMIT 3
 '''
 
-print("Verification:\n")
-for row in cur.execute(sql):
-    print(row)
-
 cur.close()
 conn.close()
