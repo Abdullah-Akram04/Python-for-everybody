@@ -22,3 +22,18 @@ for result in counts:
 print('Count:', len(nums))
 print('Sum:', sum(nums))
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
